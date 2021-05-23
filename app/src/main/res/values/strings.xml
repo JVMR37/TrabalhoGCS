@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Controle de Cursos</string>
+    <string name="cursos">Cursos</string>
+    <string name="alunos">Alunos</string>
+    <string name="desenvolvido">Desenvolvido por João Victor e Lucas Berriel</string>
+    <string name="aRegistro">Alunos registrados:</string>
+    <string name="cRegistro">Cursos registrados:</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="cpf">CPF</string>
+    <string name="tel">Telefone</string>
+    <string name="nomeCurso">Nome do Curso</string>
+    <string name="qtdHoras">Quantidade de Horas</string>
+</resources>

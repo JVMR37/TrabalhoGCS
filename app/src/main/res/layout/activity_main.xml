@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCurso"
+        app:strokeColor="@color/roxo"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="304dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="66dp"
+        android:backgroundTint="@color/cinza"
+        android:elevation="6dp"
+        android:text="@string/cursos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/roxo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:icon="@drawable/curso"
+        app:iconGravity="textStart"
+        app:iconSize="45dp"
+        app:iconTint="@color/roxo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnAluno"
+        app:strokeColor="@color/roxo"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="304dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="66dp"
+        android:backgroundTint="@color/cinza"
+        android:elevation="6dp"
+        android:text="@string/alunos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/roxo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:icon="@drawable/aluno"
+        app:iconGravity="textStart"
+        app:iconSize="45dp"
+        app:iconTint="@color/roxo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/desenvolvido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/aRegistro"
+        android:textColor="@color/roxo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnAluno" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/cRegistro"
+        android:textColor="@color/roxo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnAluno" />
+
+    <TextView
+        android:id="@+id/registroAlunos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="40dp"
+        android:text="TextView"
+        android:textColor="@color/roxo"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/registroCursos" />
+
+    <TextView
+        android:id="@+id/registroCursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="40dp"
+        android:text="TextView"
+        android:textColor="@color/roxo"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnAluno" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
