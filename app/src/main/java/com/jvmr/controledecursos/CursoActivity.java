@@ -1,7 +1,7 @@
 package com.jvmr.controledecursos;
 // campo de busca no topo da tela
 import androidx.appcompat.app.AppCompatActivity;
-
+// remoção de cursos com alunos cadastrados
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
