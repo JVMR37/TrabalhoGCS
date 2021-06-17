@@ -1,5 +1,5 @@
 package com.jvmr.controledecursos;
-
+// botão que leva até a tela de cadastro
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
