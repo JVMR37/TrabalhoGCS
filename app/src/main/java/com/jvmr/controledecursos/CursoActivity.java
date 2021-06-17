@@ -1,5 +1,5 @@
 package com.jvmr.controledecursos;
-//Implementação de busca de cursos
+// campo de busca no topo da tela
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
