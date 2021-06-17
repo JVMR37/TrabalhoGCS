@@ -1,5 +1,5 @@
 package com.jvmr.controledecursos;
-// campo de busca
+//Implementação de busca de alunos 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
