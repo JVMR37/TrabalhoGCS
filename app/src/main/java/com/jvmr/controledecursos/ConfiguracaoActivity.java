@@ -1,2 +1,2 @@
 // Tela de configuração aqui
-// login e logout
+// Mais uns códigos aqui, Login e Logout
